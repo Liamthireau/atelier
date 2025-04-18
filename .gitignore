@@ -1,0 +1,69 @@
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+venv/
+.env/
+env/
+.venv/
+
+# Fichiers de logs
+*.log
+
+# Fichiers de base de données locales
+*.sqlite3
+*.db
+
+# Dossiers ou fichiers sensibles / secrets
+*.env
+.env.*
+secrets.json
+credentials.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest / coverage / tox
+.cache/
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+
+# Configs de l'IDE (VSCode, PyCharm…)
+.vscode/
+.idea/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de build / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Dossiers Airflow (si tu l’utilises)
+airflow.db
+logs/
+*.pid
+
+# Docker
+*.pid
+*.bak
+docker-compose.override.yml
+
+# Fichiers temporaires
+*.swp
+*.bak
+*.tmp
+
+# Data
+*.parquet
+*.json
+*.csv
