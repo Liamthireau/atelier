@@ -1,2 +1,2 @@
-# tp_enedis
+# atelier
 Tp du cours 'entrepôt de données' SDV
